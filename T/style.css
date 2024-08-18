@@ -1,0 +1,216 @@
+body {
+    color: white;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500; /* Medium weight for the main text */
+}
+
+
+h1 {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; /* Bold weight for the "Model 3" heading */
+    font-size: 60px; /* Adjust as needed */
+}
+
+h3 {
+        font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600; /* Regular weight for the financing text */
+        font-size: 25px; /* Adjust as needed */
+}
+
+p {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500; /* Medium weight for the price */
+    font-size: 18px; /* Adjust as needed */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+section {
+    height: 100vh;
+}
+.container {
+    height: 100vh;
+}
+
+
+.nav-left svg {
+    width: 125px;
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+
+.nav-center ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-center a {
+    text-decoration: none;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.btn {
+    padding: 8px 80px;
+}
+
+#home {
+    background-image: url("./Assets/home.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 350px;
+}
+
+.hero-wrapper{
+    gap: 200px;
+}
+
+.text-wrapper {
+    padding-top: 60px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start
+}
+
+.button-wrapper {
+    align-self: center;
+    align-content: flex-end;
+    display: flex;
+    gap: 15px;
+}
+
+#model-y {
+    background-image: url("./Assets/model-y.png");
+    object-fit:cover ;  
+    background-size: cover; 
+}
+
+#model-x {
+    background-image: url("./Assets/model-x.png");
+    object-fit:cover ;   
+    background-size: cover;
+}
+
+#model-s {
+    background-image: url("./Assets/model-s.png");
+    object-fit:cover ; 
+    background-size: cover;  
+}
+
+#cybertruck {
+    background-image: url("./Assets/cybertruck.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+#cybertruck img {
+    height: 155px;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.cy-btn {
+    background-color:rgb(29, 29, 29);
+    color: grey;
+    
+}
+
+
+#panel {
+    background-image: url("./Assets/panel.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+#roof {
+    background-image: url("./Assets/roof.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+#Powerwall {
+    background-image: url("./Assets/powerwall.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+#Accessories {
+    background-image: url("./Assets/accessories.png");
+    object-fit:cover ;
+    background-size: cover;
+}
+
+
+
+footer {
+    margin-top: 50px;
+    width: 625px;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+footer p {
+    font-size: small;
+}
+
+.footer-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+}
+
+.footer-link-wrapper ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: x-small;
+}
+
+.footer-link-wrapper a {
+    text-decoration: none;
+}
+
+
+#footer-wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
